@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lives Foundation - Charity Organization</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="mailto:ssali.benjamin2017@gmail.com"><i class="fas fa-envelope"></i> ssali.benjamin2017@gmail.com</a>
+                    <a href="tel:+1234567890"><i class="fas fa-phone"></i> +1 (234) 567-890</a>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Little Lives Foundation" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="causes.html">Causes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-primary" href="donate.html">Donate Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1>Together We Can Make a Difference</h1>
+                    <p class="lead">Join us in our mission to bring hope and change to communities in need around the world.</p>
+                    <div class="hero-buttons">
+                        <a href="donate.html" class="btn btn-primary btn-lg">Donate Now</a>
+                        <a href="about.html" class="btn btn-outline-light btn-lg">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Causes Section -->
+    <section class="causes-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2>Our Causes</h2>
+                <p>We're working on several initiatives to help those in need</p>
+            </div>
+            <div class="row">
+                <!-- Cause 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="cause-card">
+                        <div class="cause-img">
+                            <img src="images/education-cause.jpg" alt="Education for All" class="img-fluid">
+                            <div class="raised">
+                                <span>65% Raised</span>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 65%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cause-body">
+                            <h3>Education for All</h3>
+                            <p>Providing school supplies and scholarships to underprivileged children in rural areas.</p>
+                            <div class="cause-meta">
+                                <div class="goal">
+                                    <span>Goal: $50,000</span>
+                                    <span>Raised: $32,500</span>
+                                </div>
+                                <a href="cause-details.html" class="btn btn-outline-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cause 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="cause-card">
+                        <div class="cause-img">
+                            <img src="images/water-cause.jpg" alt="Clean Water Initiative" class="img-fluid">
+                            <div class="raised">
+                                <span>45% Raised</span>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 45%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cause-body">
+                            <h3>Clean Water Initiative</h3>
+                            <p>Building wells and water purification systems in communities without access to clean water.</p>
+                            <div class="cause-meta">
+                                <div class="goal">
+                                    <span>Goal: $75,000</span>
+                                    <span>Raised: $33,750</span>
+                                </div>
+                                <a href="cause-details.html" class="btn btn-outline-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cause 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="cause-card">
+                        <div class="cause-img">
+                            <img src="images/hunger-cause.jpg" alt="End Hunger" class="img-fluid">
+                            <div class="raised">
+                                <span>80% Raised</span>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cause-body">
+                            <h3>End Hunger</h3>
+                            <p>Providing meals and food supplies to families affected by poverty and natural disasters.</p>
+                            <div class="cause-meta">
+                                <div class="goal">
+                                    <span>Goal: $30,000</span>
+                                    <span>Raised: $24,000</span>
+                                </div>
+                                <a href="cause-details.html" class="btn btn-outline-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="causes.html" class="btn btn-primary">View All Causes</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="images/about-us.jpg" alt="About Little Lives Foundation" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-header mb-4">
+                        <h2>About Our Organization</h2>
+                    </div>
+                    <p>Little Lives Foundation is a non-profit organization dedicated to improving lives through humanitarian aid, sustainable development, and advocacy.</p>
+                    <p>Founded in 2010, we've helped over 50,000 people across 15 countries through our various programs and initiatives.</p>
+                    <ul class="about-list">
+                        <li><i class="fas fa-check-circle"></i> 100% transparent operations</li>
+                        <li><i class="fas fa-check-circle"></i> 90% of donations go directly to programs</li>
+                        <li><i class="fas fa-check-circle"></i> Award-winning organization</li>
+                        <li><i class="fas fa-check-circle"></i> Registered 501(c)(3) non-profit</li>
+                    </ul>
+                    <a href="about.html" class="btn btn-primary mt-3">Learn More About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section py-5 text-white text-center">
+        <div class="container">
+            <h2 class="mb-4">Your Support Can Change Lives</h2>
+            <p class="lead mb-5">Every donation, no matter how small, makes a difference in someone's life.</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="donate.html" class="btn btn-light btn-lg">Donate Now</a>
+                <a href="volunteer.html" class="btn btn-outline-light btn-lg">Become a Volunteer</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2>Upcoming Events</h2>
+                <p>Join us at our upcoming fundraising and community events</p>
+            </div>
+            <div class="row">
+                <!-- Event 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">Jun</span>
+                        </div>
+                        <img src="images/event1.jpg" alt="Annual Gala" class="img-fluid">
+                        <div class="event-body">
+                            <h3>Annual Charity Gala</h3>
+                            <div class="event-meta">
+                                <span><i class="fas fa-clock"></i> 6:00 PM - 10:00 PM</span>
+                                <span><i class="fas fa-map-marker-alt"></i> Grand Ballroom, City Center</span>
+                            </div>
+                            <p>Join us for an evening of fine dining and fundraising to support our education initiatives.</p>
+                            <a href="event-details.html" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Event 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="day">22</span>
+                            <span class="month">Jul</span>
+                        </div>
+                        <img src="images/event2.jpg" alt="Fun Run" class="img-fluid">
+                        <div class="event-body">
+                            <h3>Hope 5K Fun Run</h3>
+                            <div class="event-meta">
+                                <span><i class="fas fa-clock"></i> 8:00 AM - 12:00 PM</span>
+                                <span><i class="fas fa-map-marker-alt"></i> Central Park</span>
+                            </div>
+                            <p>Run, walk, or roll in our annual 5K to raise funds for clean water projects.</p>
+                            <a href="event-details.html" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Event 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="day">10</span>
+                            <span class="month">Aug</span>
+                        </div>
+                        <img src="images/event3.jpg" alt="Volunteer Day" class="img-fluid">
+                        <div class="event-body">
+                            <h3>Community Volunteer Day</h3>
+                            <div class="event-meta">
+                                <span><i class="fas fa-clock"></i> 9:00 AM - 3:00 PM</span>
+                                <span><i class="fas fa-map-marker-alt"></i> Various Locations</span>
+                            </div>
+                            <p>Join hundreds of volunteers for a day of service in our local community.</p>
+                            <a href="event-details.html" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 col-6 mb-4 mb-md-0">
+                    <div class="stat-item">
+                        <i class="fas fa-users"></i>
+                        <h3 class="counter" data-target="25000">0</h3>
+                        <p>People Helped</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4 mb-md-0">
+                    <div class="stat-item">
+                        <i class="fas fa-globe-americas"></i>
+                        <h3 class="counter" data-target="15">0</h3>
+                        <p>Countries</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <i class="fas fa-hand-holding-heart"></i>
+                        <h3 class="counter" data-target="500">0</h3>
+                        <p>Volunteers</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <i class="fas fa-home"></i>
+                        <h3 class="counter" data-target="45">0</h3>
+                        <p>Projects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2>Latest News</h2>
+                <p>Stay updated with our latest activities and stories</p>
+            </div>
+            <div class="row">
+                <!-- Blog 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="blog-card">
+                        <img src="images/blog1.jpg" alt="New School Opening" class="img-fluid">
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar-alt"></i> June 5, 2023</span>
+                                <span><i class="far fa-user"></i> Admin</span>
+                            </div>
+                            <h3>New School Opens in Rural Uganda</h3>
+                            <p>Thanks to your donations, we've opened a new primary school serving 200 children in a remote Ugandan village.</p>
+                            <a href="blog-single.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Blog 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="blog-card">
+                        <img src="images/blog2.jpg" alt="Water Project" class="img-fluid">
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar-alt"></i> May 18, 2023</span>
+                                <span><i class="far fa-user"></i> Admin</span>
+                            </div>
+                            <h3>Clean Water Project Completed</h3>
+                            <p>Our team has successfully completed a water purification system in Honduras, bringing clean water to 500 people.</p>
+                            <a href="blog-single.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Blog 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="blog-card">
+                        <img src="images/blog3.jpg" alt="Volunteer Spotlight" class="img-fluid">
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar-alt"></i> April 30, 2023</span>
+                                <span><i class="far fa-user"></i> Admin</span>
+                            </div>
+                            <h3>Volunteer Spotlight: Ssali George Benjamin</h3>
+                            <p>Meet Benjamin, who has dedicated over 500 hours to our food distribution program in his local community.</p>
+                            <a href="blog-single.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="mb-3">Stay Updated</h2>
+                    <p class="mb-4">Subscribe to our newsletter to receive updates on our projects, events, and how you can help.</p>
+                    <form class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your email address">
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="images/logo-white.png" alt="Little Lives Foundation" class="mb-3" height="50">
+                    <p>Little Lives Foundation is a non-profit organization dedicated to improving lives through humanitarian aid, sustainable development, and advocacy.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="causes.html">Our Causes</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5>Our Causes</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Education for All</a></li>
+                        <li><a href="#">Clean Water Initiative</a></li>
+                        <li><a href="#">End Hunger</a></li>
+                        <li><a href="#">Medical Assistance</a></li>
+                        <li><a href="#">Disaster Relief</a></li>
+                        <li><a href="#">Women Empowerment</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>Contact Us</h5>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Lumumba Ave, Kampala City, Ug 256</li>
+                        <li><i class="fas fa-phone"></i> +1 (234) 567-890</li>
+                        <li><i class="fas fa-envelope"></i> ssali.benjamin2017@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-light">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2023 Little Lives Foundation. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <ul class="footer-bottom-links">
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
